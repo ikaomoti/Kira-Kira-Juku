@@ -295,59 +295,8 @@ li {
     width: 3rem;
   }
 }
-.header .hamburger_nav {
-  display: none;
-}
-.header .hamburger_nav.open {
-  display: block;
-  position: absolute;
-  top: 6.9rem;
-  left: 0;
-  width: 100%;
-  background-color: #005BAC;
-  padding: 0 2rem 3.2rem;
-}
-.header .hamburger_nav.open ul {
-  margin-bottom: 3.2rem;
-}
-.header .hamburger_nav.open ul li {
-  height: 6.7rem;
-  border-bottom: 1px solid #fff;
-  display: flex;
-  align-items: center;
-}
-.header .hamburger_nav.open ul li a {
-  color: #fff;
-  font-size: 1.8rem;
-  line-height: 1.4444444444;
-  font-weight: 500;
-  margin-left: 2.6rem;
-  position: relative;
-}
-.header .hamburger_nav.open ul li a::before {
-  content: "";
-  width: 1.4rem;
-  height: 1.2rem;
-  background-image: url(../images/arrow-right_w.svg);
-  background-size: cover;
-  position: absolute;
-  top: 0.7rem;
-  left: -2.5rem;
-}
-.header .hamburger_nav.open .hamburger_entry_btn {
-  width: 100%;
-  height: 6.6rem;
-  border-radius: 3.3rem;
-  background-color: #fff;
-  color: #005BAC;
-  font-size: 1.8rem;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-/* mv
+/* cover
 ------------------------------------------ */
 .cover {
   background-image: url(../images/mv_pc.jpg);
@@ -410,7 +359,7 @@ li {
     line-height: 1.4545454545;
   }
 }
-.cover .achievements__txt span {
+.cover .achievements__txt-bold {
   font-family: "Poppins", sans-serif;
   color: #F11F8D;
   font-size: 5.4rem;
@@ -419,7 +368,7 @@ li {
   margin: 0 -0.7rem 0 0.3rem;
 }
 @media screen and (max-width: 767px) {
-  .cover .achievements__txt span {
+  .cover .achievements__txt-bold {
     font-size: 2.5rem;
     margin: 0 -0.1rem 0 -0.2rem;
   }
@@ -871,51 +820,51 @@ li {
     font-size: 2.8rem;
   }
 }
-.price .price-table .price-table__body tr:nth-of-type(1) .price-table__body--price {
+.price .price-table .price-table__body .price-table__body-line1 .price-table__body--price {
   padding: 0.2rem 0 0 16.2rem;
 }
 @media screen and (max-width: 767px) {
-  .price .price-table .price-table__body tr:nth-of-type(1) .price-table__body--price {
+  .price .price-table .price-table__body .price-table__body-line1 .price-table__body--price {
     padding: 0.9rem 0 0 5.1rem;
   }
 }
-.price .price-table .price-table__body tr:nth-of-type(2) .price-table__body--price {
+.price .price-table .price-table__body .price-table__body-line2 .price-table__body--price {
   padding: 0.3rem 0 0 16.2rem;
 }
 @media screen and (max-width: 767px) {
-  .price .price-table .price-table__body tr:nth-of-type(2) .price-table__body--price {
+  .price .price-table .price-table__body .price-table__body-line2 .price-table__body--price {
     padding: 0.9rem 0 0px 5rem;
   }
 }
-.price .price-table .price-table__body tr:nth-of-type(3) .price-table__body--price {
+.price .price-table .price-table__body .price-table__body-line3 .price-table__body--price {
   padding: 0.3rem 0 0 16.3rem;
 }
 @media screen and (max-width: 767px) {
-  .price .price-table .price-table__body tr:nth-of-type(3) .price-table__body--price {
+  .price .price-table .price-table__body .price-table__body-line3 .price-table__body--price {
     padding: 0.9rem 0 0 5.1rem;
   }
 }
-.price .price-table .price-table__body tr:nth-of-type(4) .price-table__body--price {
+.price .price-table .price-table__body .price-table__body-line4 .price-table__body--price {
   padding: 0.3rem 0 0 16.2rem;
 }
 @media screen and (max-width: 767px) {
-  .price .price-table .price-table__body tr:nth-of-type(4) .price-table__body--price {
+  .price .price-table .price-table__body .price-table__body-line4 .price-table__body--price {
     padding: 0.9rem 0 0 5rem;
   }
 }
-.price .price-table .price-table__body tr:nth-of-type(5) .price-table__body--price {
+.price .price-table .price-table__body .price-table__body-line5 .price-table__body--price {
   padding: 0.6rem 0 0 15.7rem;
 }
 @media screen and (max-width: 767px) {
-  .price .price-table .price-table__body tr:nth-of-type(5) .price-table__body--price {
+  .price .price-table .price-table__body .price-table__body-line5 .price-table__body--price {
     padding: 0.9rem 0 0 4.7rem;
   }
 }
-.price .price-table .price-table__body tr:nth-of-type(6) .price-table__body--price {
+.price .price-table .price-table__body .price-table__body-line6 .price-table__body--price {
   padding: 0.8rem 0 0 16.2rem;
 }
 @media screen and (max-width: 767px) {
-  .price .price-table .price-table__body tr:nth-of-type(6) .price-table__body--price {
+  .price .price-table .price-table__body .price-table__body-line6 .price-table__body--price {
     padding: 0.9rem 0 0 5rem;
   }
 }
