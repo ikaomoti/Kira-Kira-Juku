@@ -137,28 +137,63 @@ li {
         }
     }
 
-    &_btn {
-        width: 36rem;
-        height: 7.5rem;
-        background: linear-gradient(to right, #0271E0, #53A2F0);
-        border-radius: 3.8rem;
-        padding: 0 0 .2rem 2.1rem;
-        color: #fff;
-        font-size: 2.4rem;
-        font-weight: 700;
+    .entry-container {
         display: flex;
-        align-items: center;
         justify-content: center;
-        margin: auto;
+        gap: 3rem;
 
         @include sp {
-            width: 30.5rem;
-            height: 6.9rem;
-            font-size: 2rem;
-            padding: 0;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .entry_btn {
+            width: 36rem;
+            height: 7.5rem;
+            background: linear-gradient(to right, #0271E0, #53A2F0);
+            border-radius: 3.8rem;
+            padding: 0 0 .2rem 2.1rem;
+            color: #fff;
+            font-size: 2.4rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @include sp {
+                width: 30.5rem;
+                height: 6.9rem;
+                font-size: 2rem;
+                padding: 0;
+            }
+        }
+
+        .freetrial_btn {
+            width: 36rem;
+            height: 7.5rem;
+            border-radius: 3.8rem;
+            background-color: #F6AA00;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 2.4rem;
+            font-weight: 700;
+
+            @include sp {
+                width: 30.5rem;
+                height: 6.9rem;
+                font-size: 2rem;
+                padding: 0;
+            }
         }
     }
+
+
 }
+
+
 
 /* header
 ------------------------------------------ */
