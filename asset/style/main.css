@@ -728,7 +728,7 @@ li {
 }
 @media screen and (max-width: 767px) {
   .choice {
-    padding: 6.6rem 1.6rem 6.3rem 1.6rem;
+    padding: 6.6rem 0 6.3rem 0;
   }
 }
 .choice .section-title {
@@ -750,6 +750,9 @@ li {
 @media screen and (max-width: 767px) {
   .choice .tab-area {
     gap: 1.5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 .choice .tab {
@@ -772,7 +775,7 @@ li {
 }
 @media screen and (max-width: 767px) {
   .choice .tab {
-    width: calc((100% - 1.5rem) / 2);
+    width: 16.4rem;
     height: 6.6rem;
     font-size: 1.8rem;
     padding: 0.2rem 0 0 0;
@@ -798,8 +801,7 @@ li {
 }
 @media screen and (max-width: 767px) {
   .choice .panel.active {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
+    width: 100%;
     grid-template-columns: 1fr;
     padding: 2.8rem 1.6rem 5.2rem;
     row-gap: 2.4rem;
