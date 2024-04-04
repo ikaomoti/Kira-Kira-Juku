@@ -651,7 +651,7 @@ li {
     padding: 8.1rem 2rem 7.4rem;
 
     @include sp {
-        padding: 6.6rem 1.6rem 6.3rem 1.6rem;
+        padding: 6.6rem 0 6.3rem 0;
     }
 
     .section-title {
@@ -670,6 +670,7 @@ li {
 
         @include sp {
             gap: 1.5rem;
+            justify-content: center;
         }
     }
 
@@ -686,7 +687,7 @@ li {
         justify-content: center;
 
         @include sp {
-            width: calc((100% - 1.5rem) / 2);
+            width: 16.4rem;
             height: 6.6rem;
             font-size: 1.8rem;
             padding: .2rem 0 0 0;
@@ -712,8 +713,7 @@ li {
         border-radius: 0 0 1.2rem 1.2rem;
 
         @include sp {
-            width: 100vw;
-            margin-left: calc(50% - 50vw);
+            width: 100%;
             grid-template-columns: 1fr;
             padding: 2.8rem 1.6rem 5.2rem;
             row-gap: 2.4rem;
