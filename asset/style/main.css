@@ -807,6 +807,9 @@ li {
     row-gap: 2.4rem;
   }
 }
+.choice .panel.active .choice-links__picture:hover {
+  opacity: 1;
+}
 .choice .panel.active .choice-links__picture:hover .choice-picture__img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -1089,6 +1092,9 @@ li {
   z-index: -2;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+}
+.footer__link-left:hover, .footer__link-right:hover {
+  opacity: 1;
 }
 .footer__link-left:hover::after, .footer__link-right:hover::after {
   -webkit-transform: scale(1.2);

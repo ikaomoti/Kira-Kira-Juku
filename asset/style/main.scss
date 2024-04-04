@@ -721,6 +721,8 @@ li {
 
         .choice-links__picture {
             &:hover {
+                opacity: 1;
+
                 .choice-picture__img {
                     transform: scale(1.2);
                 }
@@ -1007,8 +1009,10 @@ li {
             }
 
             &:hover {
+                opacity: 1;
+
                 &::after {
-                    transform: scale(1.2)
+                    transform: scale(1.2);
                 }
             }
         }
